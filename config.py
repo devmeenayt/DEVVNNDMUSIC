@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐁ԋυɱ𝐈 𝐌ʂι𝐂")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VNND MUSIC"
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6082627272").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5919321779").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mrtosumemon/BHUMIXMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/devmeenayt/DEVVNNDMUSIC/tree/main")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/INCRICIBLE_NETWORK")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/INCRICIBLE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DP_CHENNAL")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/II_VNND_FIGHTERS_II")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/587f0f75c2c7aeb171ba7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/389440a8556f7219d3dea.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/31a93833e2a67c3570e28.jpg",
+    "https://te.legra.ph/file/db8561caace17ecd1fca7.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/31a93833e2a67c3570e28.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/db8561caace17ecd1fca7.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/587f0f75c2c7aeb171ba7.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/389440a8556f7219d3dea.jpg"
